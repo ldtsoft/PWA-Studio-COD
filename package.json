@@ -1,0 +1,24 @@
+{
+  "name": "@ldtsoft/pwa-studio-cod",
+  "version": "0.0.1",
+  "description": "Provides Cash On Delivery Payment Method for PWA Studio.",
+  "author": "Dreyar<trongithust@gmail.com>",
+  "license": "MIT",
+  "main": "intercept.js",
+  "scripts": {
+    "clean": " "
+  },
+  "peerDependencies": {
+    "@magento/peregrine": "*",
+    "@magento/pwa-buildpack": "*",
+    "@magento/venia-ui": "*",
+    "react": "*",
+    "react-intl": "*",
+    "react-router-dom": "*"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./intercept.js"
+    }
+  }
+}
